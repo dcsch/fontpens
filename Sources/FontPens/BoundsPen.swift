@@ -6,7 +6,7 @@
 //  Copyright © 2020 David Schweinsberg. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 func calcCubicParameters(_ pt1: CGPoint,
                          _ pt2: CGPoint,
