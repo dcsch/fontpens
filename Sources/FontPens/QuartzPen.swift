@@ -6,7 +6,7 @@
 //  Copyright © 2021 David Schweinsberg. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 public protocol GlyphComponents {
   func readGlyph<T: PointPen>(glyphName: String, pointPen: inout T) throws
